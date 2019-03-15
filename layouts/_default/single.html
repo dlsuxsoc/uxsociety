@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ .Title }} - {{ .Site.Data.info.name }}</title>
+        {{ partial "components/meta" (dict "path" "../") }}
+    </head>
+    <body>
+        {{ partial "components/nav" (dict "path" "../") }}
+        {{ partial .Params.page . }}
+        {{ partial "components/footer" (dict "path" "../")  }}
+        <script>setActive({{ .Params.active }});</script>
+    </body>
+</html>

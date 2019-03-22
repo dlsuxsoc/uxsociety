@@ -1,1 +1,40 @@
 /* navigation component stylesheet */
+
+nav {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-sizing: border-box;
+    z-index: 999 !important;
+}
+
+nav > div.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    cursor: pointer;
+    color: var(--main-gray);
+    font-weight: normal;
+    font-size: 1.1em;
+}
+
+nav #nav-logo {
+    width: 10em;
+    display: block;
+    cursor: pointer;
+}

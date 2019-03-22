@@ -1,1 +1,18 @@
 /* button component stylesheet */
+
+button {
+	background: linear-gradient(225deg, #34BC9B 0%, #2CBAC2 100%);
+	border-radius: 5em;
+	color: white;
+	padding: 1em 2em;
+	font-size: 1em;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid transparent;
+}
+
+button:focus {
+	outline: 0;
+}

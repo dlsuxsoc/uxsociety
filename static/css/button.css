@@ -23,7 +23,7 @@ button:focus {
 	outline: 0;
 }
 
-button.hallow {
+button.hollow {
 	background-color: transparent;
 	color: var(--main-green);
 	border-color: var(--main-gradient);

@@ -1,0 +1,8 @@
+header#index div.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+header#index #cta{
+    margin-right: 1.5em;
+}

@@ -2,7 +2,7 @@
 
 nav {
     margin: 0;
-    padding: 0;
+    padding: 0.7em 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -16,25 +16,23 @@ nav > div.wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1.25em;
-    margin-bottom: 1.25em;
+    z-index: 999;
 }
 
 nav ul li {
     list-style-type: none;
     display: inline-block;
     float: right;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin: 0 1.3em;
     text-align: center;
     cursor: pointer;
     color: var(--main-gray);
     font-weight: normal;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 nav #nav-logo {
-    width: 10em;
+    width: 9em;
     display: block;
     cursor: pointer;
 }

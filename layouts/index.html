@@ -6,8 +6,6 @@
     </head>
     <body>
     	{{ partial "components/nav" (dict "path" "") }}
-    	<div class="wrapper">
-            @uxsocietydlsu welcomes you to the new website!
-        </div>
+        {{ partial "components/current-event" (dict "path" "") }}
     </body>
 </html>

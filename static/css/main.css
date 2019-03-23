@@ -2,25 +2,98 @@
 
 @import url(nav.css);
 @import url(button.css);
+@import url(content.css);
+@import url(card.css);
+@import url(header.css);
 
 @font-face {
 	font-family: 'Proxima-Nova';
 	src: url('../assets/fonts/ProximaNova-Regular.otf') format("opentype");
 }
 
+@font-face {
+	font-family: 'Proxima-Nova-Bold';
+	src: url('../assets/fonts/ProximaNova-Bold.otf') format("opentype");
+}
+
 :root {
-	--main-gray: #49505B;
-	--main-gray-light: #7F8389;
+	--main-gray: #7F8389;
+	--main-pale: #EEF1F6;
+
+	--main-color: #333333;
+	--main-green: #34BC9B;
+	--main-blue: #2CBAC2;
+
+	--main-gradient: linear-gradient(60deg, #2CBAC2, #34BC9B);
+
 	font-family: 'Proxima-Nova';
 }
 
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
 body {
-	padding-top: 6.5em;
+	padding-top: 76.83px;
 	color: var(--main-gray-light);
 	background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: bolder;
+	margin: 0;
+	color: var(--main-color);
+}
+
+h1, h2 {
+	font-family: 'Proxima-Nova-Bold';
+	margin-bottom: 0.5em;
+}
+
+p {
+	margin: 1.3em 0;
+	padding: 0;
+	font-size: 1.05em;
+	line-height: 1.5em;
+	color: var(--main-gray);
+}
+
+a {
+	text-decoration: none;
+	color: var(--main-gray);
+	transition: ease all 0.3s;
+	padding: 0.8em 0;
+}
+
+a *{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+a:hover *{
+	color: var(--main-green);
+}
+
+a i{
+	font-size: 1.5em;
+	transition: ease all 0.1s;
+	margin-left: 0.1em;
+}
+
+a:hover i{
+	margin-left: 0.5em;
 }
 
 div.wrapper {
 	width: 70em !important;
 	margin: 0 auto;
+}
+
+section > div.wrapper, header > div.wrapper {
+	padding: 4em 0;
+}
+
+section.pale, header.pale {
+	background-color: var(--main-pale);
 }

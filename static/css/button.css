@@ -1,18 +1,31 @@
 /* button component stylesheet */
 
 button {
-	background: linear-gradient(225deg, #34BC9B 0%, #2CBAC2 100%);
+	background: var(--main-gradient);
 	border-radius: 5em;
 	color: white;
-	padding: 1em 2em;
+	padding: 0.8em 2.3em;
+	padding-top: 0.7em;
 	font-size: 1em;
 	color: white;
 	cursor: pointer;
 	text-decoration: none;
 	display: inline-block;
 	border: 1px solid transparent;
+	text-transform: capitalize;
+}
+
+button:hover {
+	transition: all ease 0.1s;
 }
 
 button:focus {
 	outline: 0;
+}
+
+button.hallow {
+	background-color: transparent;
+	color: var(--main-green);
+	border-color: var(--main-gradient);
+	background: none;
 }

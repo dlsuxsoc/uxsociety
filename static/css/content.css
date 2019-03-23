@@ -1,0 +1,13 @@
+div.content-wrapper .label{
+	color: var(--main-gray);
+	margin-bottom: 0.3em;
+    font-size: 1.3em;
+}
+
+div.content-wrapper h1.heading{
+	font-size: 3em;
+}
+
+div.content-wrapper h2.heading{
+    font-size: 2em;
+}

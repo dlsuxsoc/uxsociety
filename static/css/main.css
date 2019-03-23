@@ -1,1 +1,26 @@
 /* Main channel and theme for the UX Society Website */
+
+@import url(nav.css);
+@import url(button.css);
+
+@font-face {
+	font-family: 'Proxima-Nova';
+	src: url('../assets/fonts/ProximaNova-Regular.otf') format("opentype");
+}
+
+:root {
+	--main-gray: #49505B;
+	--main-gray-light: #7F8389;
+	font-family: 'Proxima-Nova';
+}
+
+body {
+	padding-top: 6.5em;
+	color: var(--main-gray-light);
+	background-color: white;
+}
+
+div.wrapper {
+	width: 70em !important;
+	margin: 0 auto;
+}

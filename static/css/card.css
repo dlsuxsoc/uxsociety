@@ -2,11 +2,6 @@
     --card-radius: 1.5em;
 }
 
-div.card-feed{
-    width: 150em;
-    overflow-x: scroll;
-}
-
 div.event-card{
     border-radius: var(--card-radius);
     background-image: linear-gradient(60deg, var(--main-blue), var(--main-green));

@@ -23,7 +23,7 @@ nav ul li {
     list-style-type: none;
     display: inline-block;
     float: right;
-    margin: 0 1.3em;
+    margin: 0 1.1em;
     text-align: center;
     cursor: pointer;
     color: var(--main-gray);

@@ -7,3 +7,7 @@ header#index #cta{
     margin-right: 1.5em;
     width: 27em;
 }
+
+header#about p {
+	font-size: 1.2em;
+}

@@ -25,7 +25,7 @@ div.event-card:hover *{
 }
 
 div.event-card h3.title{
-    font-weight: bold;
+    font-weight: 700;
 }
 
 div.event-card h4.date{

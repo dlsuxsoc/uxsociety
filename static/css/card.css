@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+  min-width: 286px;
+  min-height: 421px;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(229.42deg, #34BC9B 0%, #2CBAC2 78.29%);
+}
+
+.card-image {
+  min-width: 100%;
+  min-height: calc(421px - 175px); 
+  border-radius: 30px 30px 0 0;
+}
+
+.card-details {
+  min-width: 100%;
+  min-height: 175px;
+  background-color: #fff;
+}

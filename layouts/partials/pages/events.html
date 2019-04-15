@@ -1,1 +1,6 @@
 <!-- events page -->
+<link rel="stylesheet" href="/css/card.css">
+
+{{ range $.Site.Data.articles }}
+  {{ partial "components/card.html" .}}
+{{ end }}

@@ -29,3 +29,11 @@ button.hollow {
 	border-color: var(--main-gradient);
 	background: none;
 }
+
+button.disabled {
+	background-color: var(--main-grey);
+	color: #CCC;
+	border-color: var(--main-grey);
+	background: var(--main-grey);
+	cursor: not-allowed;
+}

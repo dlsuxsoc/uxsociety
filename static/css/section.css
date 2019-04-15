@@ -1,3 +1,20 @@
-section.pale{
+section.pale {
     background-color: var(--main-pale);
+}
+
+section.gradient {
+	background: var(--main-gradient);
+}
+
+section.gradient div.content-wrapper * {
+	color: white;
+}
+
+section.gradient div.content-wrapper p {
+	width: 33em;
+}
+
+section img {
+	width: 20em;
+	display: block;
 }

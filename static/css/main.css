@@ -38,6 +38,7 @@ body {
 	padding-top: 76.83px;
 	color: var(--main-gray-light);
 	background-color: white;
+	box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -85,9 +86,14 @@ a:hover i{
 	margin-left: 0.5em;
 }
 
+a:hover button{
+	color: white;
+}
+
 div.wrapper {
 	width: 70em !important;
 	margin: 0 auto;
+	box-sizing: border-box;
 }
 
 section > div.wrapper, header > div.wrapper {
@@ -96,4 +102,13 @@ section > div.wrapper, header > div.wrapper {
 
 section.pale, header.pale {
 	background-color: var(--main-pale);
+}
+
+.flex-between{
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-middle{
+	align-items: center;
 }

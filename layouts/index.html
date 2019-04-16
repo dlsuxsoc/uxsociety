@@ -2,8 +2,12 @@
 <html>
     <head>
         <title>User Experience Society - DLSU</title>
+        {{ partial "components/meta" (dict "path" "") }}
     </head>
     <body>
-        @uxsocietydlsu welcomes you to the new website!
+    	{{ partial "components/nav" (dict "path" "") }}
+        {{ partial "index-components/current-event" (dict "path" "") }}
+        {{ partial "index-components/about-us" (dict "path" "") }}
+        {{ partial "index-components/services" (dict "path" "") }}
     </body>
 </html>

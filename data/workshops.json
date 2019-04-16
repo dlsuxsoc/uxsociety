@@ -1,0 +1,136 @@
+{
+    "a":{
+        "classification": "UX&Play",
+        "name": "Figma Workshop",
+        "date": "March 9, 2019",
+        "where": "A1904",
+        "time": "01:00pm - 03:00pm",
+        "speaker":"Paul Sabandal, Anjo Cerdena"
+    },
+
+    "b":{
+        "classification": "UXKapihan",
+        "name": "UXKapihan",
+        "date":"January 18, 2019",
+        "where": "Y508",
+        "time": "04:00pm - 06:00pm",
+        "speaker": "N/A"
+    },
+
+    "c":{
+        "classification": "Training",
+        "name": "UX 101 Workshop",
+        "date": "November 29, 2018",
+        "where": "LS230, LS315",
+        "time": "04:00pm - 06:00pm, 06:00pm - 08:00pm",
+        "speaker": "Jordan Deja"
+    },
+
+    "d":{
+        "classification": "UX&Play",
+        "name": "Lego Serious Play Method",
+        "date": "November 16, 2018",
+        "where": "LS230",
+        "time": "06:00pm - 08:00pm",
+        "speaker": "Myke Santos"
+    },
+
+    "e":{
+        "classification": "General Assembly",
+        "name": "General Assembly",
+        "date": "October 26, 2018",
+        "where": "Y508",
+        "time": "06:00pm - 08:00pm",
+        "speaker": "Christian San Jose"
+    },
+
+    "f":{
+        "classification": "Recruitment",
+        "name": "UX For All",
+        "date": "October 9, 2018 - October 11, 2019",
+        "where": "Velasco-Bloemen Bench 3",
+        "time": "Entire day",
+        "speaker": "N/A"
+    },
+
+    "g":{
+        "classification": "UX&Chill",
+        "name": "UX&Chill: Information Architecture",
+        "date": "July 28, 2018",
+        "where": "V207",
+        "time": "01:00pm - 03:00pm",
+        "speaker": "Mhariell 'Riel' Mosqueriolaa"
+    },
+
+    "h":{
+        "classification": "UX&Chill",
+        "name": "UX&Chill: Leading A UX Team",
+        "date": "July 14, 2018",
+        "where": "Y507",
+        "time": "01:00pm - 03:00pm",
+        "speaker": "Tisha 'Fish' Ibasco"
+    },
+
+    "i":{
+        "classification": "General Assembly",
+        "name": "General Assembly",
+        "date": "June 22, 2018",
+        "where": "L201",
+        "time": "06:00pm - 08:00pm",
+        "speaker": "Alexander Hans Collado Jr."
+    },
+
+    "j":{
+        "classification": "UX&Chill",
+        "name": "UX&Chill: Create your brand",
+        "date": "March 03, 2018",
+        "where": "G101",
+        "time": "10:00am - 12:00nn",
+        "speaker": "Russell Vergara"
+    },
+
+    "k":{
+        "classification": "UX&Chill",
+        "name": "UX&Chill: User Research",
+        "date": "February 10, 2018",
+        "where": "G201",
+        "time": "10:00am - 12:00nn",
+        "speaker": "Angela Obias-Tuban"
+    },
+
+    "l":{
+        "classification": "UX&Chill",
+        "name": "UX&Chill What is UX?",
+        "date": "January 27, 2018",
+        "where": "LS313",
+        "time": "10:00am - 12:00pm",
+        "speaker": "Tari Rosario"
+    },
+
+    "m":{
+        "classification": "General Assembly",
+        "name": "General Assembly",
+        "date": "January 13, 2018",
+        "where": "ISR (Goks)",
+        "time": "10:00am - 12:00pm",
+        "speaker": "Mark Lester Lacsamana"
+    },
+
+    "n":{
+        "classification": "General Assembly",
+        "name": "General Assembly",
+        "date": "October 19, 2017",
+        "where": "LS315",
+        "time": "06:00pm - 08:00pm",
+        "speaker": "Ely Apao"
+    },
+
+    "o":{
+        "classification": "Recruitment",
+        "name": "Recruitment",
+        "date": "October 4, 2017 - October 9, 2017",
+        "where": "Online",
+        "time": "Entire day",
+        "speaker": "N/A"
+    }
+}

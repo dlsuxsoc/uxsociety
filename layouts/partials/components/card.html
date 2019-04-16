@@ -1,0 +1,17 @@
+{{$time := time .Date }}
+<div class="article-card">
+  <div class="card-image" style="background-image: url('{{ .Photo }}');background-position: center center;background-size:cover;"></div>
+  <div class="card-details">
+    <div class="card-title"> 
+      <h3 class="title" title="{{ .Article }}"> {{ .Article }}</h4>
+      <span class="date"> {{ $time.Month }} {{ $time.Day }}, {{ $time.Year }}</span>
+    </div>
+    <div class="card-author">
+      <div class="card-author-details">
+        <b class="name"> {{ .Author }} </b>  
+        <span class="cred"> {{ .Position }} </span>
+      </div>
+      <div class="image" style="background-image: url('{{ .Image }}');background-position: center center;background-size:cover;"></div>
+    </div>
+  </div>
+</div>

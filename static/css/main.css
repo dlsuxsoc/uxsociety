@@ -4,6 +4,7 @@
 @import url(button.css);
 @import url(content.css);
 @import url(card.css);
+@import url(event-banner.css);
 @import url(header.css);
 @import url(section.css);
 
@@ -20,7 +21,7 @@
 :root {
 	--main-gray: #7F8389;
 	--main-pale: #EEF1F6;
-
+	
 	--main-color: #333333;
 	--main-green: #34BC9B;
 	--main-blue: #2CBAC2;

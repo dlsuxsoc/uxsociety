@@ -1,8 +1,9 @@
 :root{
     --card-radius: 1.5em;
+    --main-gray-lighter: #c4c4c4;
 }
 
-div.event-card{
+div.event-card, div.article-card{
     border-radius: var(--card-radius);
     background-image: linear-gradient(60deg, var(--main-blue), var(--main-green));
     width: 15em;
@@ -24,11 +25,13 @@ div.event-card:hover *{
     opacity: 1;
 }
 
-div.event-card h3.title{
+div.event-card h3.title,
+div.article-card h3.title{
     font-weight: 700;
 }
 
-div.event-card h4.date{
+div.event-card h4.date,
+div.article-card h4.title{
     font-weight: lighter;
     font-size: 0.8em;
     color: #f1f1f1;
@@ -60,4 +63,96 @@ div.event-card div.speaker-details .image{
     background-color: var(--main-pale);
     border-radius: 100%;
     margin-left: 0.8em;
+}
+
+/* Article Card Styles */
+div.articles {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em;
+}
+
+div.scroll-wrapper {
+    padding-bottom: 2em !important;
+}
+
+div.scroll-bar {
+    background-color: var(--main-gray) !important;
+}
+
+div.article-card {
+    padding: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-width: 15em;
+    min-height: 25em;
+    margin: 1.25em 1.25em 1.25em 0.2em;
+}
+
+div.article-card:not(:first-child) {
+    margin: 1.25em;
+}
+
+div.article-card div.card-details {
+    background-color: #fff;
+    border-bottom-left-radius: var(--card-radius);
+    border-bottom-right-radius: var(--card-radius);
+    padding: 1.074em;
+    height: 10.25em;
+    display: flex;
+    flex-direction: column;
+}
+
+div.article-card div.card-details div.card-title {
+    flex: 1 0;
+    margin-left: 0.656em;
+}
+
+div.article-card div.card-details * {
+    color: var(--main-color);
+}
+
+div.article-card div.card-details div.card-title h3.title {    
+    /* font-size: 1.125em; */
+    font-size: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.article-card div.card-details div.card-title span.date {    
+    /* font-size: 0.875em; */
+    font-size: 0.750em;
+    color: var(--main-gray);
+}
+
+div.article-card div.card-image {
+    height: calc(100% - 10.25em);
+    border-top-left-radius: var(--card-radius);
+    border-top-right-radius: var(--card-radius);
+}
+
+div.article-card div.card-author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.article-card div.card-author-details {
+    flex: 1 0;
+    display: flex;
+    text-align: right;
+    font-size: 0.750em;
+    flex-direction: column;
+    margin-right: 0.536em;
+}
+
+div.article-card div.card-author-details * {
+    color: var(--main-gray) !important;
+}
+
+div.article-card div.card-author div.image {
+    height: 2.5em; 
+    width: 2.5em;
+    border-radius: 2.5em;
+    background-color: var(--main-gray-lighter);
 }

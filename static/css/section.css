@@ -26,8 +26,20 @@ section .col-container {
 
 section .col {
 	display: table-cell;
-	padding-right: 4em;
 	width: 33.33%;
+}
+
+section .left {
+	padding-right: 2em;
+}
+
+section .mid {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+section .right {
+	padding-left: 2em;
 }
 
 .col img {

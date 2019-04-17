@@ -1,37 +1,7 @@
 <!-- about us page -->
 <header id="about">
-	<section class="gradient">
-		<div class="wrapper">
-			<div class="content-wrapper">
-				<h1 class="heading">ABOUT THE ORGANIZATION</h1>
-				<p>{{ .Site.Data.info.chapter_info }}</p>
-				<p>{{ .Site.Data.info.about_us }}</p>
-			</div>
-		</div>
-	</section>
-	<section>
-		<div class="wrapper">
-			<img src="">
-			<div class="content-wrapper">
-				<h1 class="heading">MISSION</h1>
-				<p>{{ .Site.Data.info.mission }}</p>
-				<h1 class="heading">VISION</h1>
-				<p>{{ .Site.Data.info.vision }}</p>
-			</div>
-		</div>
-	</section>
-	<section class="pale">
-		<div class="wrapper">
-			<img src="">
-			<div class="content-wrapper">
-				<h1 class="heading">WHAT WE DO</h1>
-				<h2>Web Design & Development</h2>
-				<p>Creation of custom web designs from scratch and development using the best front-end technologies.</p>
-				<h2>UX Education & Training</h2>
-				<p>Learning more about User Experience, Experience Design, Design Strategy, Design Thinking, and many other UX related terms.</p>
-				<h2>Community Engagement</h2>
-				<p>Participation and volunteering work to different external events such as workshops & design conferences.</p>
-			</div>
-		</div>
-	</section>
+	{{ $info := .Site.Data.info }}
+	{{ partial "about-components/about-org" (dict "path" . "info" $info) }}
+	{{ partial "about-components/vision-mission" (dict "path" . "info" $info) }}
+	{{ partial "about-components/what-we-do" (dict "path" "") }}
 </header>

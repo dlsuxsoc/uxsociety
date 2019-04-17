@@ -15,6 +15,22 @@ section.gradient div.content-wrapper p {
 }
 
 section img {
-	width: 20em;
-	display: block;
+	height: 25em;
+	padding-right: 5em;
+}
+
+section .col-container {
+	display: table;
+	width: 100%;
+}
+
+section .col {
+	display: table-cell;
+	padding-right: 4em;
+	width: 33.33%;
+}
+
+.col img {
+	max-width: 100%;
+	height: auto;
 }

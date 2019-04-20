@@ -2,7 +2,7 @@
 
 nav {
     margin: 0;
-    padding: 0.3em 0;
+    padding: 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -19,9 +19,13 @@ nav > div.wrapper {
     z-index: 999;
 }
 
+nav ul{
+    margin: 0;
+}
+
 nav ul li {
     list-style-type: none;
-    display: inline-block;
+    display: block;
     float: right;
     margin: 0 1.1em;
     text-align: center;
@@ -29,6 +33,13 @@ nav ul li {
     color: var(--main-gray);
     font-weight: normal;
     font-size: 1em;
+    padding: 1.7em 0;
+    border-bottom: 0.15em solid transparent;
+}
+
+nav ul li.active {
+    border-bottom: 0.15em solid var(--main-green);
+    color: var(--main-green);
 }
 
 nav #nav-logo {

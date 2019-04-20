@@ -6,5 +6,11 @@
     "chapter_info": "The UX Society - DLSU is a recognized chapter belonging to the network of organizations headed by the UX Society founded in Ateneo de Manila University. Other chapters include UX Society Davao, UX Society Orange County (California).",
     "about_us": "User Experience Society aids various organizations by accomplishing quality products and services by applying principles, concepts and methodologies in such strategies. We hold workshops, seminars and conferences to train members about the essentials skills of proper UX discipline and methodologies.",
     "mission": "To create a community of Lasallian User Experience Designers and enthusiasts through User Experience Education and the creation of a distinct User Experience Culture within the university.",
-    "vision": "UX Society envisions to be DLSU's premier consulting and educational body for User Experience Strategy, particularly in technologies that enhance usability, guide human-computer interaction, and showcase effective visual design."
+    "vision": "UX Society envisions to be DLSU's premier consulting and educational body for User Experience Strategy, particularly in technologies that enhance usability, guide human-computer interaction, and showcase effective visual design.",
+
+    "services": {
+    	"a": "Creation of custom web designs from scratch and development using the best front-end technologies.",
+    	"b": "Learning more about User Experience, Experience Design, Design Strategy, Design Thinking, and many other UX related terms.",
+    	"c": "Participation and volunteering work to different external events such as workshops & design conferences."
+    }
 }

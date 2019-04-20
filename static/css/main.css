@@ -7,6 +7,7 @@
 @import url(event-banner.css);
 @import url(header.css);
 @import url(section.css);
+@import url(footer.css);
 
 @font-face {
 	font-family: 'Proxima-Nova';
@@ -44,7 +45,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-weight: bolder;
+	font-weight: bold;
 	margin: 0;
 	color: var(--main-color);
 }
@@ -54,10 +55,15 @@ h1, h2 {
 	margin-bottom: 0.5em;
 }
 
+hr {
+	border: none;
+	border-bottom: thin solid white;
+}
+
 p {
 	margin: 1.3em 0;
 	padding: 0;
-	font-size: 1.05em;
+	font-size: 1.1em;
 	line-height: 1.5em;
 	color: var(--main-gray);
 }
@@ -66,7 +72,6 @@ a {
 	text-decoration: none;
 	color: var(--main-gray);
 	transition: ease all 0.3s;
-	padding: 0.8em 0;
 }
 
 a *{
@@ -92,19 +97,28 @@ a:hover button{
 	color: white;
 }
 
+b {
+	font-family: Proxima-Nova;
+	font-weight: lighter;
+}
+
 div.wrapper {
 	width: 70em !important;
 	margin: 0 auto;
 	box-sizing: border-box;
 }
 
-section > div.wrapper, header > div.wrapper {
-	margin-top: 1em;
+section > div.wrapper, header > div.wrapper,
+footer > div.wrapper {
 	padding: 4em 0;
 }
 
 section.pale, header.pale {
 	background-color: var(--main-pale);
+}
+
+.green{
+	color: var(--main-green);
 }
 
 .flex-between{
@@ -114,4 +128,8 @@ section.pale, header.pale {
 
 .flex-middle{
 	align-items: center;
+}
+
+.three-column-content > *{
+	width: 30%;
 }

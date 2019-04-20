@@ -1,4 +1,10 @@
 <!-- about us page -->
+<header id="about">
+	{{ $info := .Site.Data.info }}
+	{{ partial "about-components/about-org" (dict "path" . "info" $info) }}
+	{{ partial "about-components/vision-mission" (dict "path" . "info" $info) }}
+	{{ partial "about-components/what-we-do" (dict "path" "") }}
+</header>
 <section>
 	<div class="wrapper flex-between flex-middle">
 		<img src="../assets/images/spaceman.png" alt="About us" class="featured-image" />

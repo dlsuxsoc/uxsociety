@@ -2,8 +2,7 @@ div.content-wrapper .label{
 	color: var(--main-gray);
 	margin-bottom: 0.3em;
 	font-size: 1.3em;
-	font-family: Proxima-Nova;
-	font-weight: bolder;
+	font-family: 'Proxima-Nova';
 }
 
 div.content-wrapper h1.heading{

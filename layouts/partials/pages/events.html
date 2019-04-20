@@ -3,32 +3,30 @@
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
 <script>
-  let events = {{ .Site.Data.events }};
+	let events = {{ .Site.Data.events }};
 </script>
 <header id="events" class="main-carousel">
-  <div class="wrapper">
-    <div class="content-wrapper">
-      <h1 class="heading">
-        Events
-      </h1>
-    </div>
+	<div class="wrapper">
+		<div class="content-wrapper">
+			<h1 class="heading">Events</h1>
+		</div>
 
-    <div id="event-banners">
-    </div>
-  </div>
+		<div id="event-banners">
+		</div>
+	</div>
 </header>
 <div class="wrapper">
-  <div class="content-wrapper">
-    <h1 class="heading">
-      Articles
-    </h1>
-  </div>
+	<div class="content-wrapper">
+		<h1 class="heading">
+			Articles
+		</h1>
+	</div>
 
-  <div class="scrollbar-macosx articles" id="articles">
-      {{ range $.Site.Data.articles }}
-        {{ partial "components/card.html" .}}
-      {{ end }}
-    </div>
+	<div class="scrollbar-macosx articles" id="articles">
+		{{ range $.Site.Data.articles }}
+		{{ partial "components/card.html" .}}
+		{{ end }}
+	</div>
 </div>
 
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>

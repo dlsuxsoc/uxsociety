@@ -28,7 +28,8 @@ div.event-card h3.title{
     font-weight: 700;
 }
 
-div.event-card h4.date{
+div.event-card h4.date, div.event-card h4.venue,
+div.event-card h4.facilitator{
     font-weight: lighter;
     font-size: 0.8em;
     color: #f1f1f1;
@@ -39,9 +40,8 @@ div.event-card p.description{
     font-size: 0.9em;
 }
 
-div.event-card div.speaker-details{
-    display: flex;
-    justify-content: flex-end;
+div.event-card div.speaker-details *{
+    text-align: right;
 }
 
 div.event-card div.speaker-details .name,

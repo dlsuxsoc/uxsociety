@@ -1,37 +1,56 @@
 <!-- about us page -->
-<header id="about">
-	<section class="gradient">
-		<div class="wrapper">
-			<div class="content-wrapper">
-				<h1 class="heading">ABOUT THE ORGANIZATION</h1>
-				<p>{{ .Site.Data.info.chapter_info }}</p>
-				<p>{{ .Site.Data.info.about_us }}</p>
-			</div>
+<section>
+	<div class="wrapper flex-between flex-middle">
+		<img src="../assets/images/spaceman.png" alt="About us" class="featured-image" />
+		<div class="content-wrapper">
+			<h3 class="label">Who we are?</h3>
+			<h1 class="heading">About Us</h1>
+			<p>
+				{{ .Site.Data.info.chapter_info }}
+			</p>
+			<p>
+				{{ .Site.Data.info.about_us }}
+			</p>
 		</div>
-	</section>
-	<section>
-		<div class="wrapper">
-			<img src="">
-			<div class="content-wrapper">
-				<h1 class="heading">MISSION</h1>
+	</div>
+</section>
+<section>
+	<div class="wrapper">
+		<div class="content-wrapper flex-between flex-middle">
+			<div>
+				<h3 class="label">What's our purpose?</h3>
+				<h1 class="heading">The Mission-Vision</h1>
 				<p>{{ .Site.Data.info.mission }}</p>
-				<h1 class="heading">VISION</h1>
 				<p>{{ .Site.Data.info.vision }}</p>
 			</div>
+			<img src="../assets/images/spaceman.png" alt="About us" class="featured-image right-pos" />
 		</div>
-	</section>
-	<section class="pale">
-		<div class="wrapper">
-			<img src="">
-			<div class="content-wrapper">
-				<h1 class="heading">WHAT WE DO</h1>
+	</div>
+</section>
+<section class="pale">
+	<div class="wrapper">
+		<img src="">
+		<div class="content-wrapper flex-between three-column-content">
+			<div>
 				<h2>Web Design & Development</h2>
-				<p>Creation of custom web designs from scratch and development using the best front-end technologies.</p>
+				<p>{{ .Site.Data.info.services.a }}</p>
+			</div>
+			<div>
 				<h2>UX Education & Training</h2>
-				<p>Learning more about User Experience, Experience Design, Design Strategy, Design Thinking, and many other UX related terms.</p>
+				<p>{{ .Site.Data.info.services.b }}</p>
+			</div>
+			<div>
 				<h2>Community Engagement</h2>
-				<p>Participation and volunteering work to different external events such as workshops & design conferences.</p>
+				<p>{{ .Site.Data.info.services.c }}</p>
 			</div>
 		</div>
-	</section>
-</header>
+	</div>
+</section>
+<section>
+	<div class="wrapper">
+		<div class="content-wrapper">
+			<h3 class="label">Who are the people?</h3>
+			<h1 class="heading">Our Pool Members</h1>
+		</div>
+	</div>
+</section>

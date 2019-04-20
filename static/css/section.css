@@ -17,11 +17,14 @@ section.gradient div.content-wrapper p {
 img.featured-image {
 	width: 50%;
 	display: block;
+}
 
+/*
 section img {
 	height: 25em;
 	padding-right: 5em;
 }
+*/
 
 section .col-container {
 	display: table;

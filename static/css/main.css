@@ -62,7 +62,7 @@ h3 {
 
 hr {
 	border: none;
-	border-bottom: thin solid white;
+	border-bottom: thin solid #B3BCC4;;
 }
 
 p {
@@ -102,6 +102,14 @@ a:hover button{
 	color: white;
 }
 
+a:hover button.hollow {
+	color: var(--main-green);
+}
+
+a.neutral:hover * {
+	color: inherit;
+}
+
 b {
 	font-family: 'Proxima-Nova';
 	font-weight: lighter;
@@ -133,4 +141,16 @@ section.pale, header.pale {
 
 .flex-middle{
 	align-items: center;
+}
+
+.two-column-content > * {
+	width: 47.5%;
+}
+
+.two-column-content > *:nth-child(1){
+	margin-right: 1.5em;
+}
+
+.two-column-content > *:nth-child(2){
+	margin-left: 1.5em;
 }

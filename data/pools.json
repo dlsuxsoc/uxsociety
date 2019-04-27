@@ -1,0 +1,41 @@
+{
+	"a" : {
+		"name" : "Developers Pool",
+		"description" : "Pool members are the makers of software products, particularly websites, for clients. They are expected to have a collaborative mindset, that is, able to work flexibly with others and are also open to learn through criticisms and feedbacks. They play a vital role in any product-based consultancies as they are the ones implementing the actual output."
+	},
+
+	"b" : {
+		"name" : "UX Research Pool",
+		"description" : "The job is to assess the quality of existing products. This will involve talking to people and letting them try out the product and gather insights on what they think (i.e. their likes, dislikes and recommendations). The data to be gathered is important for developers to know so that they are aware of what to improve on and make people satisfied with our work."
+	},
+
+	"c" : {
+		"name" : "Strategic Communications Pool",
+		"description" : "The Strategic Communications Pool will be responsible for creating any and all publicity materials that the organization will require. They will also be responsible for the creation and execution of any and all marketing strategy that the organization will require."
+	},
+
+	"d" : {
+		"name" : "Events & Logistics Pool",
+		"description" : "These individuals will be responsible for serving as the manpower for any and all events that the organization will hold. They will be in charge of handling all event-related preparations such as venue reservations, SPCAs, food etc."
+	},
+
+	"e" : {
+		"name" : "Course Trainers Pool",
+		"description" : "Pool members will be executing the training modules that they will be providing to the organization members and non-members. They will also be responsible for planning and executing training plans for the different pools within the organization. Such spreading of UX education will either be in the form of articles or videos."
+	},
+
+	"f" : {
+		"name" : "Membership Involvement Pool",
+		"description" : "These people will help ensure that the rest of the members are happy with the organization. They will be the forefront of all member-focused matters. Feedback form administering, attendance checking, recruitment spearheading are only a few of their duties."
+	},
+
+	"g" : {
+		"name" : "External Relations Pool",
+		"description" : "This pool will handle all matters pertaining to partnerships to organizations inside and outside of the University. They are to disclose all potential partnerships that could benefit the organization. External linkages and getting of speakers for events are only a few of their responsibilities."
+	},
+
+	"h" : {
+		"name" : "Social Media Management Pool",
+		"description" : "The job is to share to the public all the latests trends and happenings in the organization through the power of social media. This will involve publicizing events through live streaming, tweets and/or televizing on IGTV. Other forms of media spreading may apply."
+	}
+}

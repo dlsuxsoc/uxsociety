@@ -12,3 +12,63 @@ div.content-wrapper h1.heading{
 div.content-wrapper h2.heading{
 	font-size: 2em;
 }
+
+div.feed-wrapper .recent-banner {
+	height: 15em;
+	border-radius: 0.8em;
+	background-color: var(--main-pale);
+	overflow: hidden;
+}
+
+div.feed-wrapper .recent-banner img {
+	width: 100%;
+}
+
+div.feed-wrapper .other-banner img {
+	width: 127%;
+}
+
+div.feed-wrapper .recent-title,
+div.feed-wrapper .other-title {
+	margin: 1em 0;
+	margin-bottom: 0.5em;
+	font-weight: lighter;
+	line-height: 1.3em;
+}
+
+div.feed-wrapper .other-title {
+	margin-top: 0;
+}
+
+div.feed-wrapper p {
+	text-overflow: ellipsis !important;
+	-webkit-line-clamp: 2;
+	margin: 0;
+}
+
+div.feed-wrapper p.ellipsis {
+	text-overflow: ellipsis;
+	height: 4.5em;
+	overflow: hidden;
+	display: block;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+div.feed-wrapper div.other-wrapper p {
+	font-size: 0.9em;
+}
+
+div.feed-wrapper div.other-wrapper {
+	cursor: pointer;
+}
+
+div.feed-wrapper div.other-wrapper .other-banner {
+	height: 6.5em;
+	width: 40em;
+	margin-right: 1em;
+	border-radius: 0.8em;
+	background-color: var(--main-pale);
+	overflow: hidden;
+}

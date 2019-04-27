@@ -23,6 +23,15 @@ button:focus {
 	outline: 0;
 }
 
+button.full-width {
+	width: 100%;
+}
+
+button.simple {
+	border: none;
+	background: none;
+}
+
 button.hollow {
 	background-color: transparent;
 	color: var(--main-green);

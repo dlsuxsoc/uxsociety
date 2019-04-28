@@ -18,6 +18,7 @@ div.feed-wrapper .recent-banner {
 	border-radius: 0.8em;
 	background-color: var(--main-pale);
 	overflow: hidden;
+	border: thin solid var(--main-pale);
 }
 
 div.feed-wrapper .recent-banner img {
@@ -71,4 +72,5 @@ div.feed-wrapper div.other-wrapper .other-banner {
 	border-radius: 0.8em;
 	background-color: var(--main-pale);
 	overflow: hidden;
+	border: thin solid var(--main-pale);
 }

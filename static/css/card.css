@@ -21,6 +21,10 @@ div.event-card *{
 	transition: ease all 0.2s;
 }
 
+div.event-card hr {
+	border-color: white;
+}
+
 div.event-card:hover *{
 	opacity: 1;
 }

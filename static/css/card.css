@@ -21,6 +21,10 @@ div.event-card *{
 	transition: ease all 0.2s;
 }
 
+div.event-card hr {
+	border-color: white;
+}
+
 div.event-card:hover *{
 	opacity: 1;
 }
@@ -159,9 +163,9 @@ div.article-card div.card-author div.image {
 div.services-card {
 	background-color: white;
 	border-radius: var(--card-radius);
-	padding: 1em 1em;
+	padding: 1em 1.5em;
 	box-shadow: 0px 0px 8px #e0e0e0;
-	width: 29%;
+	width: 27.5%;
 }
 
 div.services-card > img.featured-image {
@@ -169,4 +173,8 @@ div.services-card > img.featured-image {
 	margin: 0 auto;
 	margin-bottom: 1em;
 	width: 60%;
+}
+
+div.services-card p {
+	font-size: 0.9em;
 }

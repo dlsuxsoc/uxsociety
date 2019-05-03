@@ -2,16 +2,18 @@
 	"recent" : {
 		"name" : "VistaGreen Builders Inc.",
 		"description" : "The VISTAGREEN Corporation (VC) is in need for a website that will showcase what the company is, and its future projects. This will include aspects that will gather interest to the corporation such as it's mission and vision statement as well as its many services to help better the environment.",
-		"featured_image" : "assets/projects/vistagreen.png"
+		"featured_image" : "assets/projects/vistagreen.png",
+		"position" : ""
 	},
 
 	"second" : {
 		"name" : "COMELEC Automated Elections",
 		"description" : "A web-based online voting system designed to ease in the current voting process, promising convenience and simplicity for the voters and quicker computations of voter turnouts and canvassing for the COMELEC officers in an effort to be cost-effective and paperless.",
-		"featured_image" : "assets/projects/automated-elections.png"
+		"featured_image" : "assets/projects/automated-elections.png",
+		"position" : "right-pos"
 	},
 
-	"aaaa" : {
+	"vcon" : {
 		"name" : "V-Malaysia 2018",
 		"description" : "V-Con Malaysia 2018 needs to establish an event microsite that highlights a mix of leadership, motivational and product trainings, as well as service exhibitions.As part of our deliverables, the microsite should serve as our one-stop-shop for everything V-Con related and should cater to stories, videos, photos, links, etc.",
 		"featured_image" : "assets/projects/vcon.png"

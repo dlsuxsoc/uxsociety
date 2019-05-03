@@ -74,3 +74,19 @@ div.feed-wrapper div.other-wrapper .other-banner {
 	overflow: hidden;
 	border: thin solid var(--main-pale);
 }
+
+div.project-wrapper img.featured-image {
+	border-radius: var(--card-radius);
+	margin-right: 2em;
+	border: thin solid var(--main-pale);
+}
+
+div.project-wrapper div.right-pos {
+	flex-direction: row-reverse;
+}
+
+div.project-wrapper div.right-pos img.featured-image {
+	flex-direction: row-reverse;
+	margin-right: 0;
+	margin-left: 2em;
+}

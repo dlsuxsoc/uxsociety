@@ -1,1 +1,48 @@
 /* button component stylesheet */
+
+button {
+	background: var(--main-gradient);
+	border-radius: 5em;
+	color: white;
+	padding: 0.8em 2.3em;
+	padding-top: 0.7em;
+	font-size: 1em;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid transparent;
+	text-transform: capitalize;
+}
+
+button:hover {
+	transition: all ease 0.1s;
+}
+
+button:focus {
+	outline: 0;
+}
+
+button.full-width {
+	width: 100%;
+}
+
+button.simple {
+	border: none;
+	background: none;
+}
+
+button.hollow {
+	background-color: transparent;
+	color: var(--main-green);
+	border-color: var(--main-gradient);
+	background: none;
+}
+
+button.disabled {
+	background-color: var(--main-grey);
+	color: #CCC;
+	border-color: var(--main-grey);
+	background: var(--main-grey);
+	cursor: not-allowed;
+}

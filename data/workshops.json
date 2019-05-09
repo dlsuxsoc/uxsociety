@@ -1,0 +1,161 @@
+{
+    "latest":{
+        "classification": "UX&Play",
+        "name": "Figma Workshop",
+        "date": "March 9, 2019",
+        "where": "A1904",
+        "time": "01:00pm - 03:00pm",
+        "speaker": "Paul Sabandal & Anjo Cerdena",
+        "description": "Imagine a tool you use to create screen designs and illustrations, but it had the features of collaboration that Google Documents or Presentations has— that's Figma! Figma is the first collaborative UI design tool built in the browser."
+    },
+
+    "second":{
+        "classification": "Flagship",
+        "name": "Junior Form Function & Class 2019",
+        "date": "January 26-27, 2019",
+        "where": "Velasco Building, De La Salle University",
+        "time": "07:00am - 04:00pm",
+        "speaker": "Students & Professionals",
+        "description": "An annual two-day event organized by the User Experience Society - DLSU, Philippine Computing Organizations Alliance, and TomasinoWeb, JFFC aims to gather students from all over the country who have a passion for web design."
+    },
+
+    "third":{
+        "classification": "UXKapihan",
+        "name": "UXKapihan",
+        "date":"January 18, 2019",
+        "where": "Y508",
+        "time": "04:00pm - 06:00pm",
+        "speaker": "Executive Board",
+        "description": "Come. Join us. Sit with us and spend the afternoon sharing ideas as we build a UXversity over coffee."
+    },
+
+    "m":{
+        "classification": "Training",
+        "name": "UX 101 Workshop",
+        "date": "November 29, 2018",
+        "where": "LS230, LS315",
+        "time": "04:00pm - 06:00pm, 06:00pm - 08:00pm",
+        "speaker": "Jordan Deja",
+        "description": "This event will equip DLSU UX Society members the skills needed to give, deliver an introduction to UX talk to different audiences. This training is different from HCIFACE which is delivered in an academic setting. In this workshop, participants will be taught techniques, tips, tricks to deliver a UX Talk using Pysch Theories, Instructional Videos, Interactive Activities and many others."
+    },
+
+    "l":{
+        "classification": "UX&Play",
+        "name": "Lego Serious Play Method",
+        "date": "November 16, 2018",
+        "where": "LS230",
+        "time": "06:00pm - 08:00pm",
+        "speaker": "Myke Santos",
+        "description": "User Experience/Customer Experience are becoming essential as organizations go through Digital Transformation. Using Lego, we can physically manifest our ideas right infront of us. This is important now, more than ever with the coming of AI, to humanize products that interface directly with people. This is something that Filipinos are good at because we, as a people, have true empathy with others."
+    },
+
+    "k":{
+        "classification": "General Assembly",
+        "name": "General Assembly",
+        "date": "October 26, 2018",
+        "where": "Y508",
+        "time": "06:00pm - 08:00pm",
+        "speaker": "Christian San Jose",
+        "description": "Having a background deeply rooted in design, Christian San Jose has firmly established himself as a trailblazer in creative leadership and tech entrepreneurship. He is the guy behind awesome brands like CEBU PACIFIC, CARRIER, KOBE BRYANT, USAIN BOLT and ADOBE CS5. See you this Friday and dont miss a chance to meet and greet a designer who has worked with awesome personalities like Guy Kawasaki, Former Chief Evangelist of Apple Inc., author of The Art of the Start 2.0 and Harsh Sisodia, Former Global Digital Director, Nike & Jordan Brand."
+    },
+
+    "j":{
+        "classification": "Recruitment",
+        "name": "UX For All",
+        "date": "October 9, 2018 - October 11, 2019",
+        "where": "Velasco-Bloemen Bench 3",
+        "time": "All day",
+        "speaker": "N/A",
+        "description": ""
+    },
+
+    "i":{
+        "classification": "UX&Chill",
+        "name": "UX&Chill: Information Architecture",
+        "date": "July 28, 2018",
+        "where": "V207",
+        "time": "01:00pm - 03:00pm",
+        "speaker": "Mhariell 'Riel' Mosqueriolaa",
+        "description": "How do we label these? How does this connect? How does it go along? How might we make these organised? These are some of the few questions we ask when working on Information Architecture, an often misunderstood concept and practice that helps keep things clear for both the ones who craft and the ones who use."
+    },
+
+    "h":{
+        "classification": "UX&Chill",
+        "name": "UX&Chill: Leading A UX Team",
+        "date": "July 14, 2018",
+        "where": "Y507",
+        "time": "01:00pm - 03:00pm",
+        "speaker": "Tisha 'Fish' Ibasco",
+        "description": "Designing for experiences has always been effective as a collaborative process - teams develop more ideas and productivity increases. Happening on July 14, 2018, join us as we learn how conquering all forms of project undertakings can be done through leadership and teamwork."
+    },
+
+    "g":{
+        "classification": "General Assembly",
+        "name": "General Assembly",
+        "date": "June 22, 2018",
+        "where": "L201",
+        "time": "06:00pm - 08:00pm",
+        "speaker": "Alexander Hans Collado Jr.",
+        "description": "Our esteemed guest will be the founder of User Experience Society, Alexis Collado. He'll be sharing the lessons he learned as he built one of the, if not the first Student UX Communities in the Philippines. We invite everyone to listen and learn how he built the first UXSoc chapter in Ateneo, and how he expanded to other universities (and countries)!"
+    },
+
+    "f":{
+        "classification": "UX&Chill",
+        "name": "UX&Chill: Create your brand",
+        "date": "March 03, 2018",
+        "where": "G101",
+        "time": "10:00am - 12:00nn",
+        "speaker": "Russell Vergara",
+        "description": "Learn, understand, and create Branding with Vgrafiks founder Russell Vergara! Understand what makes brands strong, personalized, and marketable to establish products that tell stories and express its message to its customers."
+    },
+
+    "e":{
+        "classification": "UX&Chill",
+        "name": "UX&Chill: User Research",
+        "date": "February 10, 2018",
+        "where": "G201",
+        "time": "10:00am - 12:00nn",
+        "speaker": "Angela Obias-Tuban",
+        "description": "The marathon doesn't stop because we're about to bring you to the 2nd UX&Chill episode and it's all about user-centered research! Learn and understand user behaviors, needs, and motivations through various techniques and analysis."
+    },
+
+    "d":{
+        "classification": "UX&Chill",
+        "name": "UX&Chill What is UX?",
+        "date": "January 27, 2018",
+        "where": "LS313",
+        "time": "10:00am - 12:00pm",
+        "speaker": "Tari Rosario",
+        "description": "Quench your thirst for knowledge as we kick-off a series of casual talks where the curious listen and discuss anything and everything about UX."
+    },
+
+    "c":{
+        "classification": "General Assembly",
+        "name": "General Assembly",
+        "date": "January 13, 2018",
+        "where": "ISR (Goks)",
+        "time": "10:00am - 12:00pm",
+        "speaker": "Mark Lester Lacsamana",
+        "description": "Jumpstart your year with DLSUXSoc as we hold our 2nd General Assembly on January 13, 2017 (Saturday) from 10am to 12nn at the Intellect Seminar Room (ISR) Gokongwei building. Our esteemed guest is product and UX Designer - Mark Lester Lacsamana sharing with us about UX as a career and his experiences in the industry."
+    },
+
+    "b":{
+        "classification": "General Assembly",
+        "name": "General Assembly",
+        "date": "October 19, 2017",
+        "where": "LS315",
+        "time": "06:00pm - 08:00pm",
+        "speaker": "Ely Apao",
+        "description": "User Experience Society - DLSU will be having it's first General Assembly. Our esteemed guest, Mr. Ely Apao!"
+    },
+
+    "a":{
+        "classification": "Recruitment",
+        "name": "Recruitment",
+        "date": "October 4, 2017 - October 9, 2017",
+        "where": "Online",
+        "time": "Entire day",
+        "speaker": "N/A",
+        "description": "Design enthusiasts, we are officially recruiting! Don't miss the chance to be part of the forefront of design."
+    }
+}

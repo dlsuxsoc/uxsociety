@@ -1,1 +1,49 @@
 /* navigation component stylesheet */
+
+nav {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-sizing: border-box;
+    z-index: 999 !important;
+}
+
+nav > div.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+
+nav ul{
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: block;
+    float: right;
+    margin: 0 1.1em;
+    text-align: center;
+    cursor: pointer;
+    color: var(--main-gray);
+    font-weight: normal;
+    font-size: 1em;
+    padding: 1.7em 0;
+    border-bottom: 0.15em solid transparent;
+}
+
+nav ul li.active {
+    border-bottom: 0.15em solid var(--main-green);
+    color: var(--main-green);
+}
+
+nav #nav-logo {
+    width: 9em;
+    display: block;
+    cursor: pointer;
+}

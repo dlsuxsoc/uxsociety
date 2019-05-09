@@ -1,9 +1,158 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>User Experience Society - DLSU</title>
-    </head>
-    <body>
-        @uxsocietydlsu welcomes you to the new website!
-    </body>
+	<head>
+		<title>User Experience Society - DLSU</title>
+		{{ partial "components/meta" (dict "path" "") }}
+	</head>
+	<body>
+		{{ partial "components/nav" (dict "path" "") }}
+		<header id="index">
+			<div class="wrapper">
+				<div class="content-wrapper" id="cta">
+					<h3 class="label">What's New?</h3>
+					<h1 class="heading">{{ .Site.Data.workshops.latest.name }}</h1>
+					<span class="green">{{ .Site.Data.workshops.latest.speaker }}</span>
+					<br/>
+					<span class="green">{{ .Site.Data.workshops.latest.date }} • {{ .Site.Data.workshops.latest.time }}</span>
+					<p>
+						{{ .Site.Data.workshops.latest.description }}
+					</p>
+					<button class="disabled">Sign up</button>
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="/events/">
+						<span>Check our recent events</span>
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</a>
+				</div>
+				<div class="card-feed">
+					<div class="event-card">
+						<div>
+							<h3 class="title">{{ .Site.Data.workshops.second.name }}</h3>
+							<h4 class="date">{{ .Site.Data.workshops.second.date }}</h4>
+							<h4 class="venue">{{ .Site.Data.workshops.second.where }}</h4>
+						</div>
+						<p class="description">
+							{{ .Site.Data.workshops.second.description }}
+						</p>
+						<div class="speaker-details">
+							<hr/>
+							<div>
+								<h4 class="facilitator">Facilitator</h4>
+								<h4 class="name">{{ .Site.Data.workshops.second.speaker }}</h4>
+							</div>
+						</div>
+					</div>
+					<div class="event-card">
+						<div>
+							<h3 class="title">{{ .Site.Data.workshops.third.name }}</h3>
+							<h4 class="date">{{ .Site.Data.workshops.third.date }}</h4>
+							<h4 class="venue">{{ .Site.Data.workshops.third.where }}</h4>
+						</div>
+						<p class="description">
+							{{ .Site.Data.workshops.third.description }}
+						</p>
+						<div class="speaker-details">
+							<hr/>
+							<div>
+								<h4 class="facilitator">Facilitator</h4>
+								<h4 class="name">{{ .Site.Data.workshops.third.speaker }}</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="wrapper flex-between flex-middle">
+				<img src="assets/images/spaceman.png" alt="About us" class="featured-image" />
+				<div class="content-wrapper">
+					<h3 class="label">Who we are?</h3>
+					<h1 class="heading">About Us</h1>
+					<p>
+						{{ .Site.Data.info.chapter_info }}
+					</p>
+					<p>
+						{{ .Site.Data.info.about_us }}
+					</p>
+					<a href="/about/"><button>Learn More</button></a>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="wrapper flex-between two-column-content">
+				<div class="content-wrapper">
+					<h3 class="label">What we create?</h3>
+					<h1 class="heading">Articles</h1>
+					<div class="feed-wrapper">
+						<div class="recent-wrapper">
+							<div class="recent-banner">
+								<a href="{{ .Site.Data.medium.a.link }}" target="blank">
+									<img src="{{ .Site.Data.medium.a.featured_image }}" />
+								</a>
+							</div>
+							<h2 class="recent-title">{{ .Site.Data.medium.a.title }}</h2>
+							<p>
+								{{ .Site.Data.medium.a.lead }} &nbsp;&nbsp;&nbsp;
+								<a href="{{ .Site.Data.medium.a.link }}" target="blank"><b class="green">Read more <i class="fas fa-long-arrow-alt-right"></i></b></a>
+							</p>
+							<br/><br/>
+							<div class="other-wrapper flex-between flex-middle">
+								<div class="other-banner">
+									<a href="{{ .Site.Data.medium.b.link }}" target="blank" class="neutral">
+										<img src="{{ .Site.Data.medium.b.featured_image }}" />
+									</a>
+								</div>
+								<div>
+									<a href="{{ .Site.Data.medium.b.link }}" target="blank" class="neutral">
+										<h4 class="other-title">{{ .Site.Data.medium.b.title }}</h4>
+										<p>{{ .Site.Data.medium.b.lead }}</p>
+									</a>
+								</div>
+							</div>
+							<br/><br/>
+							<a href="https://medium.com/user-experience-society-dlsu" target="blank">
+								<button class="hollow full-width">See more</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="content-wrapper">
+					<h3 class="label">What we do?</h3>
+					<h1 class="heading">Our Projects</h1>
+					<div class="feed-wrapper">
+						<div class="recent-wrapper">
+							<div class="recent-banner">
+								<a href="/projects/">
+									<img src="{{ .Site.Data.projects.recent.featured_image }}" />
+								</a>
+							</div>
+							<h2 class="recent-title">{{ .Site.Data.projects.recent.name }}</h2>
+							<p class="ellipsis">
+								{{ .Site.Data.projects.recent.description }}
+							</p>
+							<br/><br/>
+							<div class="other-wrapper flex-between flex-middle">
+								<div class="other-banner">
+									<a href="/projects/" class="neutral">
+										<img src="{{ .Site.Data.projects.second.featured_image }}" />
+									</a>
+								</div>
+								<div>
+									<a href="/projects/" class="neutral">
+										<h4 class="other-title">{{ .Site.Data.projects.second.name }}</h4>
+										<p class="ellipsis">{{ .Site.Data.projects.second.description }}</p>
+									</a>
+								</div>
+							</div>
+							<br/><br/>
+							<a href="/projects/">
+								<button class="hollow full-width">See more</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		{{ partial "components/footer" (dict "path" "") }}
+	</body>
 </html>

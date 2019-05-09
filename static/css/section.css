@@ -1,0 +1,55 @@
+section.pale {
+    background-color: var(--main-pale);
+}
+
+section.gradient {
+	background: var(--main-gradient);
+}
+
+section.gradient div.content-wrapper * {
+	color: white;
+}
+
+section.gradient div.content-wrapper p {
+	width: 33em;
+}
+
+img.featured-image {
+	width: 50%;
+	display: block;
+}
+
+/*
+section img {
+	height: 25em;
+	padding-right: 5em;
+}
+*/
+
+section .col-container {
+	display: table;
+	width: 100%;
+}
+
+section .col {
+	display: table-cell;
+	width: 33.33%;
+}
+
+section .left {
+	padding-right: 2em;
+}
+
+section .mid {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+section .right {
+	padding-left: 2em;
+}
+
+.col img {
+	max-width: 100%;
+	height: auto;
+}

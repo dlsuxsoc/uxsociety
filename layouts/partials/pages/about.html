@@ -1,0 +1,49 @@
+<!-- about us page -->
+<header id="about">
+	{{ $info := .Site.Data.info }}
+	{{ partial "about-components/about-org" (dict "path" . "info" $info) }}
+</header>
+<section class="pale">
+	<div class="wrapper">
+		<div class="content-wrapper flex-between three-column-content">
+			<div class="services-card">
+				<img src="../assets/images/design-development.png" class="featured-image" />
+				<h3>Web Design & Development</h3>
+				<p>{{ .Site.Data.info.services.a }}</p>
+			</div>
+			<div class="services-card">
+				<img src="../assets/images/education-training.png" class="featured-image" />
+				<h3>UX Education & Training</h3>
+				<p>{{ .Site.Data.info.services.b }}</p>
+			</div>
+			<div class="services-card">
+				<img src="../assets/images/community-engagement.png" class="featured-image" />
+				<h3>Community Engagement</h3>
+				<p>{{ .Site.Data.info.services.c }}</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="wrapper">
+		<div class="content-wrapper flex-between flex-middle">
+			<img src="../assets/images/spaceman.png" alt="About us" class="featured-image right-pos" />
+			<div>
+				<h3 class="label">What's our purpose?</h3>
+				<h1 class="heading">The Mission-Vision</h1>
+				<p>{{ .Site.Data.info.mission }}</p>
+				<p>{{ .Site.Data.info.vision }}</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!--
+<section>
+	<div class="wrapper">
+		<div class="content-wrapper">
+			<h3 class="label">Who are the people?</h3>
+			<h1 class="heading">Our Pool Members</h1>
+		</div>
+	</div>
+</section>
+-->

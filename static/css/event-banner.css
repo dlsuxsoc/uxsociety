@@ -1,0 +1,96 @@
+/* Flickity Plugin Styles */
+.flickity-button, .flickity-button * {
+  cursor: pointer !important;
+  background: transparent !important;
+}
+
+/* .flickity-enabled:hover .flickity-button,
+.flickity-enabled:hover .flickity-page-dots{
+  opacity: 1;
+  transition: ease all 0.2s;
+  color: #ffffff;
+}
+
+.flickity-button svg path{
+  stroke: #646464;
+  stroke-width: 5px;
+  stroke-dasharray: 2,2;
+  stroke-linejoin: round;
+}
+
+.flickity-page-dots, .flickity-button {
+  opacity: 0;
+} */
+
+/* Event Banners */
+.flickity-viewport{
+  cursor: default !important;
+}
+
+.event-banner-group {
+  display: flex;
+  min-height: 436px;
+  min-width: 100%;
+  flex-direction: row;
+}
+
+.event-banner-group > div {
+  width: 50%;
+  margin: 0.7815em;
+}
+
+.event-banner-group div {
+  border-radius: var(--card-radius);
+  cursor: pointer;
+}
+
+.event-banner-group > div:first-child {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+}
+
+.event-banner-group > div:last-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-banner-group > div:last-child > div {
+  height: 100%;
+  width: 100%;
+  background-color: var(--main-gray-lighter); 
+  background-size: cover;
+  background-position: center center;
+}
+
+.event-banner-group > div:last-child > div:first-child {
+  margin-bottom: 0.7815em;
+}
+
+.event-banner-group div .event-details {
+  opacity: 0;
+  height: 100%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.event-banner-group div:hover > .event-details {
+  opacity: 1;
+  transition: ease all 0.2s;
+}
+
+.event-banner-group div .event-details div {
+  width: 100%;
+  position: absolute;
+  bottom: 35px;
+  padding-left: 1.563em;
+}
+
+.event-banner-group  div .event-details h3 {
+  color: #ffffff;
+}
+
+.event-banner-group  div .event-details span {
+  font-size: 0.750em;
+  color: #ffffff;
+}

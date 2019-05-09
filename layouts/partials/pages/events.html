@@ -1,5 +1,70 @@
 <!-- events page -->
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollbar/0.2.11/jquery.scrollbar.min.css'/>
+<section>
+	<div class="wrapper">
+		<div class="content-wrapper event-wrapper">
+			<h1 class="heading">Events</h1>
+			<div class="flex-between flex-middle">
+				<img class="featured-image" src="https://picsum.photos/683/384/?random" />
+				<div>
+					<h2 class="title">{{ .Site.Data.workshops.latest.name }}</h2>
+					<p class="schedule">
+						{{ .Site.Data.workshops.latest.date }} &middot; {{ .Site.Data.workshops.latest.time }}
+					</p>
+					<p>{{ .Site.Data.workshops.latest.description }}</p>
+					<div class="speaker">
+						<img class="speaker-image" />
+						<p class="speaker-details">{{ .Site.Data.workshops.latest.speaker }}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="events-contd">
+	<div class="wrapper">
+		<div class="content-wrapper flex-between event-wrapper">
+			<div class="event-item">
+				<img class="image" src="https://picsum.photos/683/384/?random" />
+				<h3 class="title">{{ .Site.Data.workshops.second.name }}</h3>
+				<p class="schedule">
+					{{ .Site.Data.workshops.latest.date }} &middot; {{ .Site.Data.workshops.second.time }}
+				</p>
+				<p>{{ .Site.Data.workshops.second.description }}</p>
+				<div class="speaker">
+					<img class="speaker-image" />
+					<p class="speaker-details">{{ .Site.Data.workshops.second.speaker }}</p>
+				</div>
+			</div>
+			<div class="event-item">
+				<img class="image" src="https://picsum.photos/683/384/?random" />
+				<h3 class="title">{{ .Site.Data.workshops.third.name }}</h3>
+				<p class="schedule">
+					{{ .Site.Data.workshops.latest.date }} &middot; {{ .Site.Data.workshops.third.time }}
+				</p>
+				<p>{{ .Site.Data.workshops.third.description }}</p>
+				<div class="speaker">
+					<img class="speaker-image" />
+					<p class="speaker-details">{{ .Site.Data.workshops.third.speaker }}</p>
+				</div>
+			</div>
+			<div class="event-item">
+				<img class="image" src="https://picsum.photos/683/384/?random" />
+				<h3 class="title">{{ .Site.Data.workshops.m.name }}</h3>
+				<p class="schedule">
+					{{ .Site.Data.workshops.latest.date }} &middot; {{ .Site.Data.workshops.m.time }}
+				</p>
+				<p>{{ .Site.Data.workshops.m.description }}</p>
+				<div class="speaker">
+					<img class="speaker-image" />
+					<p class="speaker-details">{{ .Site.Data.workshops.m.speaker }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollbar/0.2.11/jquery.scrollbar.min.css'/>
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
 <script>
@@ -32,4 +97,4 @@
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollbar/0.2.11/jquery.scrollbar.min.js'></script>
 <script src="/js/article-card.js"></script>
-<script src="/js/event-banners.js"></script>
+<script src="/js/event-banners.js"></script> -->

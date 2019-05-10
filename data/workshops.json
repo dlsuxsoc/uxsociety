@@ -6,6 +6,7 @@
         "where": "A1904",
         "time": "01:00pm - 03:00pm",
         "speaker": "Paul Sabandal & Anjo Cerdena",
+        "featured_image": "https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.0-9/53183010_10161576340100261_3675664472552243200_o.jpg?_nc_cat=111&_nc_ht=scontent.fmnl17-1.fna&oh=53871ab0bbb3d1350b56ac514194acad&oe=5D60226D",
         "description": "Imagine a tool you use to create screen designs and illustrations, but it had the features of collaboration that Google Documents or Presentations has— that's Figma! Figma is the first collaborative UI design tool built in the browser."
     },
 
@@ -16,6 +17,7 @@
         "where": "Velasco Building, De La Salle University",
         "time": "07:00am - 04:00pm",
         "speaker": "Students & Professionals",
+        "featured_image": "https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.0-9/48393076_1198981150253499_2270132456386461696_o.jpg?_nc_cat=111&_nc_ht=scontent.fmnl17-1.fna&oh=423c2464792609431fe510ce42c3ae9d&oe=5D76E152",
         "description": "An annual two-day event organized by the User Experience Society - DLSU, Philippine Computing Organizations Alliance, and TomasinoWeb, JFFC aims to gather students from all over the country who have a passion for web design."
     },
 
@@ -26,6 +28,7 @@
         "where": "Y508",
         "time": "04:00pm - 06:00pm",
         "speaker": "Executive Board",
+        "featured_image": "https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.0-9/50234348_353901975192446_7270073253400412160_o.jpg?_nc_cat=104&_nc_ht=scontent.fmnl17-1.fna&oh=725f759ff4f37c8f0dd929ee9b8aaafb&oe=5D63B82B",
         "description": "Come. Join us. Sit with us and spend the afternoon sharing ideas as we build a UXversity over coffee."
     },
 
@@ -36,6 +39,7 @@
         "where": "LS230, LS315",
         "time": "04:00pm - 06:00pm, 06:00pm - 08:00pm",
         "speaker": "Jordan Deja",
+        "featured_image": "../assets/images/uxtrain101.jpg",
         "description": "This event will equip DLSU UX Society members the skills needed to give, deliver an introduction to UX talk to different audiences. This training is different from HCIFACE which is delivered in an academic setting. In this workshop, participants will be taught techniques, tips, tricks to deliver a UX Talk using Pysch Theories, Instructional Videos, Interactive Activities and many others."
     },
 

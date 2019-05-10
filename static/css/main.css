@@ -8,6 +8,7 @@
 @import url(header.css);
 @import url(section.css);
 @import url(footer.css);
+@import url(mediaquery.css);
 
 @font-face {
 	font-family: 'Proxima-Nova';
@@ -116,7 +117,7 @@ b {
 }
 
 div.wrapper {
-	width: 70em !important;
+	width: 70em;
 	margin: 0 auto;
 	box-sizing: border-box;
 }
@@ -137,6 +138,11 @@ section.pale, header.pale {
 .flex-between{
 	display: flex;
 	justify-content: space-between;
+}
+
+.flex-start {
+	display: flex;
+	justify-content: flex-start;
 }
 
 .flex-middle{

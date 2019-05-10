@@ -4,17 +4,15 @@
 		<div class="content-wrapper event-wrapper">
 			<h1 class="heading">Events</h1>
 			<div class="flex-between flex-middle">
-				<img class="featured-image" src="https://picsum.photos/683/384/?random" />
+				<img class="featured-image" src="{{ .Site.Data.workshops.latest.featured_image }}" />
 				<div>
 					<h2 class="title">{{ .Site.Data.workshops.latest.name }}</h2>
+					<br/>
+					<span class="green">{{ .Site.Data.workshops.latest.speaker }}</span>
 					<p class="schedule">
 						{{ .Site.Data.workshops.latest.date }} &middot; {{ .Site.Data.workshops.latest.time }}
 					</p>
 					<p>{{ .Site.Data.workshops.latest.description }}</p>
-					<div class="speaker">
-						<img class="speaker-image" />
-						<p class="speaker-details">{{ .Site.Data.workshops.latest.speaker }}</p>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -25,40 +23,31 @@
 	<div class="wrapper">
 		<div class="content-wrapper flex-between event-wrapper">
 			<div class="event-item">
-				<img class="image" src="https://picsum.photos/683/384/?random" />
+				<img class="image" src="{{ .Site.Data.workshops.second.featured_image }}" />
 				<h3 class="title">{{ .Site.Data.workshops.second.name }}</h3>
+				<br class="excess-break" />
+				<span class="green">{{ .Site.Data.workshops.second.speaker }}</span>
 				<p class="schedule">
-					{{ .Site.Data.workshops.latest.date }} &middot; {{ .Site.Data.workshops.second.time }}
+					{{ .Site.Data.workshops.second.date }} &middot; {{ .Site.Data.workshops.second.time }}
 				</p>
-				<p>{{ .Site.Data.workshops.second.description }}</p>
-				<div class="speaker">
-					<img class="speaker-image" />
-					<p class="speaker-details">{{ .Site.Data.workshops.second.speaker }}</p>
-				</div>
 			</div>
 			<div class="event-item">
-				<img class="image" src="https://picsum.photos/683/384/?random" />
+				<img class="image" src="{{ .Site.Data.workshops.third.featured_image }}" />
 				<h3 class="title">{{ .Site.Data.workshops.third.name }}</h3>
+				<br class="excess-break" />
+				<span class="green">{{ .Site.Data.workshops.third.speaker }}</span>
 				<p class="schedule">
-					{{ .Site.Data.workshops.latest.date }} &middot; {{ .Site.Data.workshops.third.time }}
+					{{ .Site.Data.workshops.third.date }} &middot; {{ .Site.Data.workshops.third.time }}
 				</p>
-				<p>{{ .Site.Data.workshops.third.description }}</p>
-				<div class="speaker">
-					<img class="speaker-image" />
-					<p class="speaker-details">{{ .Site.Data.workshops.third.speaker }}</p>
-				</div>
 			</div>
 			<div class="event-item">
-				<img class="image" src="https://picsum.photos/683/384/?random" />
+				<img class="image" src="{{ .Site.Data.workshops.m.featured_image }}" />
 				<h3 class="title">{{ .Site.Data.workshops.m.name }}</h3>
+				<br class="excess-break" />
+				<span class="green">{{ .Site.Data.workshops.m.speaker }}</span>
 				<p class="schedule">
-					{{ .Site.Data.workshops.latest.date }} &middot; {{ .Site.Data.workshops.m.time }}
+					{{ .Site.Data.workshops.m.date }} &middot; {{ .Site.Data.workshops.m.time }}
 				</p>
-				<p>{{ .Site.Data.workshops.m.description }}</p>
-				<div class="speaker">
-					<img class="speaker-image" />
-					<p class="speaker-details">{{ .Site.Data.workshops.m.speaker }}</p>
-				</div>
 			</div>
 		</div>
 	</div>

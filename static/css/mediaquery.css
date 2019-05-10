@@ -1,0 +1,151 @@
+@media only screen and (max-width: 1150px) {
+	nav {
+		box-sizing: border-box !important;
+	}
+
+	nav #nav-logo {
+		margin: 1em 0 !important;
+	}
+
+	nav #hamburger, nav #close {
+		display: block;
+	}
+
+	nav#main-nav ul {
+		box-sizing: border-box;
+		position: fixed;
+		z-index: 1500;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		padding: 3em 1em;
+		background-color: white;
+		display: flex;
+		flex-direction: column-reverse;
+		transform: translateX(100%);
+	}
+
+	nav#main-nav ul li {
+		margin: 0;
+		width: 100%;
+		text-align: left;
+		font-size: 1.1em;
+		padding: 1em 0;
+		border-bottom: thin solid var(--main-pale);
+	}
+
+	nav#main-nav ul li.active {
+		border-bottom: 2px solid var(--main-green);
+	}
+
+	header#index .card-feed {
+		display: none;
+	}
+
+	header #check-events {
+		display: block !important;
+	}
+
+	button#cta-button {
+		margin-bottom: 1em;
+	}
+
+	div#cta {
+		width: 100% !important;
+		margin: 0 !important;
+	}
+
+	nav div.wrapper, footer div.wrapper {
+		width: 90% !important;
+		box-sizing: border-box !important;
+	}
+
+	header div.wrapper, section div.wrapper {
+		width: 90% !important;
+		padding: 3em 0 !important;
+	}
+
+	.flex-between, .flex-between.right-pos {
+		flex-direction: column !important;
+	}
+
+	.flex-between.reverse {
+		flex-direction: column-reverse !important;
+	}
+
+	section img.featured-image {
+		width: 100% !important;
+		margin: 0 !important;
+		margin-bottom: 1.5em !important;
+	}
+
+	.two-column-content > * {
+		width: 100% !important;
+		margin: 0 !important;
+	}
+
+	.two-column-content > *:nth-child(1) {
+		margin-bottom: 3em !important;
+	}
+
+	.three-column-content > * {
+		width: 100% !important;
+		margin-bottom: 1.5em;
+	}
+
+	.three-column-content > .services-card {
+		box-sizing: border-box;
+	}
+
+	.three-column-content > .services-card:nth-child(3) {
+		margin-bottom: 0;
+	}
+
+	.other-wrapper, br.excess-break {
+		display: none !important;
+	}
+
+	.project-wrapper .featured-image {
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.event-wrapper div.event-item {
+		width: 100%;
+		margin-bottom: 3em;
+	}
+
+	.recent-banner {
+		height: 9.5em !important;
+	}
+
+	footer > * {
+		width: 100%;
+		text-align: left;
+	}
+
+	footer div.flex-middle {
+		align-items: flex-start !important;
+	}
+
+	footer #footer-logo {
+		width: 9em;
+		margin-bottom: 1em;
+	}
+
+	footer ul {
+		padding: 0 !important;
+	}
+
+	footer ul li {
+		text-align: left !important;
+		padding: 0.3em 0;
+		padding-right: 1em;
+	}
+
+	footer #social-media i {
+		padding: 0;
+		padding-right: 1em;
+	}
+}

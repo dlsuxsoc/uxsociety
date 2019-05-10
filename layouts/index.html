@@ -17,9 +17,9 @@
 					<p>
 						{{ .Site.Data.workshops.latest.description }}
 					</p>
-					<button class="disabled">Sign up</button>
+					<button class="disabled" id="cta-button">Sign up</button>
 					&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="/events/">
+					<a href="/events/" id="check-events">
 						<span>Check our recent events</span>
 						<i class="fas fa-long-arrow-alt-right"></i>
 					</a>
@@ -95,7 +95,7 @@
 								{{ .Site.Data.medium.a.lead }} &nbsp;&nbsp;&nbsp;
 								<a href="{{ .Site.Data.medium.a.link }}" target="blank"><b class="green">Read more <i class="fas fa-long-arrow-alt-right"></i></b></a>
 							</p>
-							<br/><br/>
+							<br/><br class="excess-break"/>
 							<div class="other-wrapper flex-between flex-middle">
 								<div class="other-banner">
 									<a href="{{ .Site.Data.medium.b.link }}" target="blank" class="neutral">
@@ -109,7 +109,7 @@
 									</a>
 								</div>
 							</div>
-							<br/><br/>
+							<br class="excess-break" /><br class="excess-break" />
 							<a href="https://medium.com/user-experience-society-dlsu" target="blank">
 								<button class="hollow full-width">See more</button>
 							</a>
@@ -130,7 +130,7 @@
 							<p class="ellipsis">
 								{{ .Site.Data.projects.recent.description }}
 							</p>
-							<br/><br/>
+							<br/><br class="excess-break"/>
 							<div class="other-wrapper flex-between flex-middle">
 								<div class="other-banner">
 									<a href="/projects/" class="neutral">
@@ -144,7 +144,7 @@
 									</a>
 								</div>
 							</div>
-							<br/><br/>
+							<br class="excess-break" /><br class="excess-break" />
 							<a href="/projects/">
 								<button class="hollow full-width">See more</button>
 							</a>

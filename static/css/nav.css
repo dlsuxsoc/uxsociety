@@ -21,6 +21,7 @@ nav > div.wrapper {
 
 nav ul{
     margin: 0;
+    transition: ease all 0.3s;
 }
 
 nav ul li {
@@ -46,4 +47,22 @@ nav #nav-logo {
     width: 9em;
     display: block;
     cursor: pointer;
+}
+
+nav #hamburger, nav #close {
+    display: none;
+    color: var(--main-gray);
+    cursor: pointer;
+}
+
+nav #close {
+    position: absolute;
+    z-index: 1600;
+    font-size: 1.8em;
+    top: 1em;
+    right: 1em;
+}
+
+nav #main-list.show {
+    transform: translateX(0%);
 }

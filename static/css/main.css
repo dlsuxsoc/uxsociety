@@ -131,6 +131,16 @@ section.pale, header.pale {
 	background-color: var(--main-pale);
 }
 
+#about-us-img { 
+	width: 100%;
+	margin-left: 10em;
+}
+
+#about-us-img-index { 
+	width: 100%;
+	margin-right: 5em;
+}
+
 .green{
 	color: var(--main-green);
 }

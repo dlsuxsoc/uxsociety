@@ -80,6 +80,10 @@
 		margin-bottom: 1.5em !important;
 	}
 
+	#about-us-img, #about-us-img-index {
+		width: 80% !important;
+	}
+
 	.two-column-content > * {
 		width: 100% !important;
 		margin: 0 !important;

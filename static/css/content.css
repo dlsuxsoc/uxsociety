@@ -31,10 +31,14 @@ div.feed-wrapper .other-banner img {
 
 div.feed-wrapper .recent-title,
 div.feed-wrapper .other-title {
+	white-space: nowrap;
+	text-overflow: ellipsis;
 	margin: 1em 0;
 	margin-bottom: 0.5em;
 	font-weight: lighter;
 	line-height: 1.3em;
+	overflow: hidden;
+	height: 1.3em;
 }
 
 div.feed-wrapper .other-title {

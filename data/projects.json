@@ -7,7 +7,7 @@
 	},
 
 	"second" : {
-		"name" : "COMELEC Automated Elections",
+		"name" : "DLSU COMELEC Automated Elections",
 		"description" : "A web-based online voting system designed to ease in the current voting process, promising convenience and simplicity for the voters and quicker computations of voter turnouts and canvassing for the COMELEC officers in an effort to be cost-effective and paperless.",
 		"featured_image" : "assets/projects/automated-elections.png",
 		"position" : "right-pos"

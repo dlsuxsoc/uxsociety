@@ -45,10 +45,6 @@ footer #social-media i:hover {
 	color: var(--main-green);
 }
 
-footer #social-media i:hover {
-	margin-left: 0.1em;
-}
-
 footer #social-media i {
 	display: inline-block;
 	font-size: 1.5em;

@@ -132,13 +132,13 @@ section.pale, header.pale {
 }
 
 #about-us-img { 
-	width: 100%;
-	margin-left: 10em;
+	width: 50%;
+	margin-left: 3em;
 }
 
 #about-us-img-index { 
-	width: 100%;
-	margin-right: 5em;
+	width: 50%;
+	margin-right: 3em;
 }
 
 .green{

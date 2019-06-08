@@ -140,14 +140,21 @@ div.event-item {
 	width: 30%;
 }
 
-div.event-item > img.image {
+div.event-item > div.event-image {
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 1em;
-	width: 100%;
-	background: var(--main-gradient);
-	border-radius: var(--card-radius);
+	max-height: 44%;
 	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+	border-radius: var(--card-radius);
+	background: var(--main-gradient);
+	overflow: hidden;
+}
+
+div.event-image > img.image {
+	width: 100%;
+	max-height: initial;
+	vertical-align: middle;
 }
 
 div.event-item h3.title {

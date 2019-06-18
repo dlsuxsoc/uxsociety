@@ -29,6 +29,7 @@ nav ul li {
     display: block;
     float: right;
     margin: 0 1.1em;
+    line-height: 2.5em;
     text-align: center;
     cursor: pointer;
     color: var(--main-gray);

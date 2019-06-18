@@ -15,7 +15,7 @@ div.content-wrapper h2.heading{
 
 div.feed-wrapper .recent-banner {
 	height: 15em;
-	border-radius: 0.8em;
+	border-radius: 0.7em;
 	background-color: var(--main-pale);
 	overflow: hidden;
 	border: thin solid var(--main-pale);
@@ -80,7 +80,7 @@ div.feed-wrapper div.other-wrapper .other-banner {
 }
 
 div.project-wrapper img.featured-image {
-	border-radius: var(--card-radius);
+	border-radius: 0.7em;
 	margin-right: 3em;
 	border: thin solid var(--main-pale);
 	width: 35em;

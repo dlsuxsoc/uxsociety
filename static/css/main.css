@@ -127,6 +127,15 @@ footer > div.wrapper {
 	padding: 5em 0;
 }
 
+section.project > div.wrapper {
+	padding-top: 0 !important;
+	padding-bottom: 8em !important;
+}
+
+div.special-wrapper {
+	padding-bottom: 0 !important;
+}
+
 section.pale, header.pale {
 	background-color: var(--main-pale);
 }

@@ -11,9 +11,9 @@
 				<div class="content-wrapper" id="cta">
 					<h3 class="label">What's New?</h3>
 					<h1 class="heading">{{ .Site.Data.workshops.latest.name }}</h1>
-					<span class="green">{{ .Site.Data.workshops.latest.speaker }}</span>
-					<br/>
-					<span class="green">{{ .Site.Data.workshops.latest.date }} • {{ .Site.Data.workshops.latest.time }}</span>
+					Date & Time <br/><span class="green">{{ .Site.Data.workshops.latest.date }} • {{ .Site.Data.workshops.latest.time }}</span>
+					<br/><br/>
+					Venue <br/><span class="green">{{ .Site.Data.workshops.latest.where }}</span>
 					<p>
 						{{ .Site.Data.workshops.latest.description }}
 					</p>

@@ -101,11 +101,11 @@ section#events-contd div.wrapper {
 }
 
 div.event-wrapper img.featured-image {
-	border-radius: var(--card-radius);
+	border-radius: 0.7em;
 	border: thin solid var(--main-pale);
 	background: var(--main-gradient);
 	margin-right: 2em;
-	width: calc((100% / 3.5) * 2);
+	width: 30%;
 }
 
 div.event-wrapper h2.title {
@@ -114,7 +114,7 @@ div.event-wrapper h2.title {
 }
 
 div.event-wrapper p.schedule {
-	margin-top: 0;
+	margin: 0;
 }
 
 div.event-wrapper div.speaker {
@@ -137,24 +137,18 @@ div.event-wrapper div.speaker p.speaker-details {
 div.event-item {
 	background-color: white;
 	padding: 0;
-	width: 30%;
+	align-items: center;
+	border-bottom: thin solid var(--main-pale);
+	margin-bottom: 1.5em;
+	padding-bottom: 1.5em;
 }
 
-div.event-item > div.event-image {
-	display: block;
-	margin: 0 auto;
-	margin-bottom: 1em;
-	max-height: 44%;
+div.event-item > img.event-image {
+	margin-right: 1.5em;
+	width: 10%;
+	height: 10%;
 	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-	border-radius: var(--card-radius);
-	background: var(--main-gradient);
-	overflow: hidden;
-}
-
-div.event-image > img.image {
-	width: 100%;
-	max-height: initial;
-	vertical-align: middle;
+	border-radius: 0.8em;
 }
 
 div.event-item h3.title {

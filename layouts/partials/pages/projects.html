@@ -1,19 +1,19 @@
 <!-- projects page -->
-<!--
 <header>
-	<div class="wrapper">
-		<h1 class="heading">Projects</h1>
+	<div class="wrapper special-wrapper">
+		<div class="content-wrapper">
+			<h1 class="heading">Projects</h1>
+		</div>
 	</div>
 </header>
--->
 {{ range .Site.Data.projects }}
-<section>
+<section class="project">
 	<div class="wrapper">
 		<div class="content-wrapper project-wrapper">
 			<div class="flex-between flex-middle {{ .position }}">
 				<img src="../{{ .featured_image }}" class="featured-image" />
 				<div>
-					<h2 class="heading">{{ .name }}</h2>
+					<h2 class="title">{{ .name }}</h2>
 					<p>{{ .description }}</p>
 				</div>
 			</div>

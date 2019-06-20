@@ -7,12 +7,13 @@
 				<img class="featured-image" src="{{ .Site.Data.workshops.latest.featured_image }}" />
 				<div>
 					<h2 class="title">{{ .Site.Data.workshops.latest.name }}</h2>
-					<br/>
-					<span class="green">{{ .Site.Data.workshops.latest.speaker }}</span>
+					
 					<p class="schedule">
 						{{ .Site.Data.workshops.latest.date }} &middot; {{ .Site.Data.workshops.latest.time }}
 					</p>
+					<span class="green">{{ .Site.Data.workshops.latest.where }}</span>
 					<p>{{ .Site.Data.workshops.latest.description }}</p>
+					<button class="disabled" id="cta-button">Sign up</button>
 				</div>
 			</div>
 		</div>
@@ -21,40 +22,19 @@
 
 <section id="events-contd">
 	<div class="wrapper">
-		<div class="content-wrapper flex-between event-wrapper">
-			<div class="event-item">
-				<div class="event-image">
-					<img class="image" src="{{ .Site.Data.workshops.second.featured_image }}" />
+		<div class="content-wrapper event-wrapper">
+			{{ range sort .Site.Data.workshops.recent_events }}
+			<div class="event-item flex-start">
+				<!--<img class="event-image" src="{{ .Site.Data.workshops.second.featured_image }}" />-->
+				<div>
+					<h3 class="title">{{ .name }}</h3>
+					<p class="schedule">
+						{{ .date }} &middot; {{ .time }}
+					</p>
+					<span class="green">{{ .where }}</span>
 				</div>
-				<h3 class="title">{{ .Site.Data.workshops.second.name }}</h3>
-				<br class="excess-break" />
-				<span class="green">{{ .Site.Data.workshops.second.speaker }}</span>
-				<p class="schedule">
-					{{ .Site.Data.workshops.second.date }} &middot; {{ .Site.Data.workshops.second.time }}
-				</p>
 			</div>
-			<div class="event-item">
-				<div class="event-image">
-					<img class="image" src="{{ .Site.Data.workshops.third.featured_image }}" />
-				</div>
-				<h3 class="title">{{ .Site.Data.workshops.third.name }}</h3>
-				<br class="excess-break" />
-				<span class="green">{{ .Site.Data.workshops.third.speaker }}</span>
-				<p class="schedule">
-					{{ .Site.Data.workshops.third.date }} &middot; {{ .Site.Data.workshops.third.time }}
-				</p>
-			</div>
-			<div class="event-item">
-				<div class="event-image">
-					<img class="image" src="{{ .Site.Data.workshops.m.featured_image }}" />
-				</div>
-				<h3 class="title">{{ .Site.Data.workshops.m.name }}</h3>
-				<br class="excess-break" />
-				<span class="green">{{ .Site.Data.workshops.m.speaker }}</span>
-				<p class="schedule">
-					{{ .Site.Data.workshops.m.date }} &middot; {{ .Site.Data.workshops.m.time }}
-				</p>
-			</div>
+			{{ end }}
 		</div>
 	</div>
 </section>

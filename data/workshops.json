@@ -1,5 +1,17 @@
 {
     "latest":{
+        "classification": "UX&Play",
+        "name": "Figma Workshop",
+        "date": "June 28, 2019",
+        "where": "TBA",
+        "time": "05:00pm - 07:00pm",
+        "speaker": "Miguel Quiambao & Mitchell Ong",
+        "ticket": "https://www.eventbrite.com/e/uxplay-figma-workshop-tickets-63788773940",
+        "featured_image": "https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.0-9/65317566_427203111195665_6702242108301901824_o.png?_nc_cat=101&_nc_oc=AQm38DcVy-QQtUM2XnWAGxNJzegknfNWgpl9y-XTmxz-2rNq19H9yeExpCAzsZsNbQM&_nc_ht=scontent.fmnl17-1.fna&oh=d352778b7576a45ac813f397faa6d56d&oe=5D83870D",
+        "description": "Missed the last Figma workshop? Worry not! We’re back for another round! Imagine a tool you use to create screen designs and illustrations, but it had the features of collaboration that Google Documents or Presentations has— that's Figma! Figma is the first collaborative UI design tool built in the browser. "
+    },
+
+    "second":{
         "classification": "UXKapihan (3rd Term)",
         "name": "UXKapihan",
         "date":"May 31, 2019",
@@ -10,29 +22,29 @@
         "description": "UX Society - DLSU is bringing you coffee and conversation. Happening this Friday, May 31, meet the people behind the scenes, hone your skills and become a better designer today. Come join us in a chill, intimate afternoon discussing ideas, experiences and everything in between."
     },
 
-    "second":{
-                "classification": "UX&Play",
-                "name": "Figma Workshop",
-                "date": "March 9, 2019",
-                "where": "A1904",
-                "time": "01:00pm - 03:00pm",
-                "speaker": "Paul Sabandal & Anjo Cerdena",
-                "featured_image": "https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.0-9/53531862_374919479757362_6746370032525115392_n.jpg?_nc_cat=111&_nc_oc=AQkiLfXUPR3UCNP3CFwrgj_K8jkKwT9WhT88E29C26fyTK_DprEfoOp9Io5oLyHvjF8&_nc_ht=scontent.fcrk1-1.fna&oh=ff32324e61b19cb7ae40be644e141b32&oe=5D84035A",
-                "description": "Imagine a tool you use to create screen designs and illustrations, but it had the features of collaboration that Google Documents or Presentations has— that's Figma! Figma is the first collaborative UI design tool built in the browser."
-        },
-
     "third":{
-        "classification": "Flagship",
-        "name": "Junior Form Function & Class 2019",
-        "date": "January 26-27, 2019",
-        "where": "Velasco Building, De La Salle University",
-        "time": "07:00am - 04:00pm",
-        "speaker": "Students & Professionals",
-        "featured_image": "https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.0-9/48393076_1198981150253499_2270132456386461696_o.jpg?_nc_cat=111&_nc_ht=scontent.fmnl17-1.fna&oh=423c2464792609431fe510ce42c3ae9d&oe=5D76E152",
-        "description": "An annual two-day event organized by the User Experience Society - DLSU, Philippine Computing Organizations Alliance, and TomasinoWeb, JFFC aims to gather students from all over the country who have a passion for web design."
+        "classification": "UX&Play",
+        "name": "Figma Workshop",
+        "date": "March 9, 2019",
+        "where": "A1904",
+        "time": "01:00pm - 03:00pm",
+        "speaker": "Paul Sabandal & Anjo Cerdena",
+        "featured_image": "https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.0-9/53531862_374919479757362_6746370032525115392_n.jpg?_nc_cat=111&_nc_oc=AQkiLfXUPR3UCNP3CFwrgj_K8jkKwT9WhT88E29C26fyTK_DprEfoOp9Io5oLyHvjF8&_nc_ht=scontent.fcrk1-1.fna&oh=ff32324e61b19cb7ae40be644e141b32&oe=5D84035A",
+        "description": "Imagine a tool you use to create screen designs and illustrations, but it had the features of collaboration that Google Documents or Presentations has— that's Figma! Figma is the first collaborative UI design tool built in the browser."
     },
 
     "recent_events":{
+        "983":{
+            "classification": "UXKapihan (3rd Term)",
+            "name": "UXKapihan",
+            "date":"May 31, 2019",
+            "where": "V201C",
+            "time": "04:30pm - 08:00pm",
+            "speaker": "Lorraine Liao & Aldrich Tan",
+            "featured_image": "https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.0-9/61470516_413427419239901_7398832039312490496_o.jpg?_nc_cat=106&_nc_oc=AQl70sLlV-B1K8xYD6WjhxAUrTCV-r6dj2F0mk18bffdTRFc-LzUhNVVOJbAQDh9o_s&_nc_ht=scontent.fcrk1-1.fna&oh=96e0fa6ed89a4633d312266c835fc0b0&oe=5D8C3CF7",
+            "description": "UX Society - DLSU is bringing you coffee and conversation. Happening this Friday, May 31, meet the people behind the scenes, hone your skills and become a better designer today. Come join us in a chill, intimate afternoon discussing ideas, experiences and everything in between."
+        },
+      
         "984":{
                 "classification": "UX&Play",
                 "name": "Figma Workshop",
@@ -42,7 +54,7 @@
                 "speaker": "Paul Sabandal & Anjo Cerdena",
                 "featured_image": "https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.0-9/53531862_374919479757362_6746370032525115392_n.jpg?_nc_cat=111&_nc_oc=AQkiLfXUPR3UCNP3CFwrgj_K8jkKwT9WhT88E29C26fyTK_DprEfoOp9Io5oLyHvjF8&_nc_ht=scontent.fcrk1-1.fna&oh=ff32324e61b19cb7ae40be644e141b32&oe=5D84035A",
                 "description": "Imagine a tool you use to create screen designs and illustrations, but it had the features of collaboration that Google Documents or Presentations has— that's Figma! Figma is the first collaborative UI design tool built in the browser."
-            },
+        },
 
         "985":{
             "classification": "Flagship",

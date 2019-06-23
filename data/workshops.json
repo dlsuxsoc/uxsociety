@@ -44,7 +44,7 @@
             "featured_image": "https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.0-9/61470516_413427419239901_7398832039312490496_o.jpg?_nc_cat=106&_nc_oc=AQl70sLlV-B1K8xYD6WjhxAUrTCV-r6dj2F0mk18bffdTRFc-LzUhNVVOJbAQDh9o_s&_nc_ht=scontent.fcrk1-1.fna&oh=96e0fa6ed89a4633d312266c835fc0b0&oe=5D8C3CF7",
             "description": "UX Society - DLSU is bringing you coffee and conversation. Happening this Friday, May 31, meet the people behind the scenes, hone your skills and become a better designer today. Come join us in a chill, intimate afternoon discussing ideas, experiences and everything in between."
         },
-
+      
         "984":{
                 "classification": "UX&Play",
                 "name": "Figma Workshop",
@@ -54,7 +54,7 @@
                 "speaker": "Paul Sabandal & Anjo Cerdena",
                 "featured_image": "https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.0-9/53531862_374919479757362_6746370032525115392_n.jpg?_nc_cat=111&_nc_oc=AQkiLfXUPR3UCNP3CFwrgj_K8jkKwT9WhT88E29C26fyTK_DprEfoOp9Io5oLyHvjF8&_nc_ht=scontent.fcrk1-1.fna&oh=ff32324e61b19cb7ae40be644e141b32&oe=5D84035A",
                 "description": "Imagine a tool you use to create screen designs and illustrations, but it had the features of collaboration that Google Documents or Presentations has— that's Figma! Figma is the first collaborative UI design tool built in the browser."
-            },
+        },
 
         "985":{
             "classification": "Flagship",

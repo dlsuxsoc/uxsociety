@@ -1,5 +1,17 @@
 {
     "latest":{
+        "classification": "Partnered Event",
+        "name": "CCS Week 2019",
+        "date": "July 9-12, 2019",
+        "where": "Henry Sy Grounds",
+        "time": "08:00am - 05:00pm",
+        "speaker": "DLSUXSoc",
+        "ticket": "https://docs.google.com/forms/d/e/1FAIpQLSdhnnhbBQ4BM4dWHajIzfaYqkrNqd4BFTwMmIxpugd5omP17Q/viewform",
+        "featured_image": "https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/62309832_2397103433854693_6312163729551130624_o.png?_nc_cat=104&_nc_oc=AQlfPEA6klJxuTfq5hRyFQlAEBgGQDb7ENaeQ15A8UZpAQLLGf0UoUFFNIGuXZeK-gA&_nc_ht=scontent.fmnl17-2.fna&oh=70c080b4f1d0a277c5beb80e8d30e7f4&oe=5DBAFB99",
+        "description": "Get ready to win fantastic prizes and freebies by dropping by our booths and participating in the different activities we have in store for you. Water you waiting for? Join us and be part of the UX family!"
+    },
+
+    "second":{
         "classification": "UX&Play",
         "name": "Prototyping with Figma",
         "date": "June 28, 2019",
@@ -11,7 +23,7 @@
         "description": "Missed the last Figma workshop? Worry not! We’re back for another round! Imagine a tool you use to create screen designs and illustrations, but it had the features of collaboration that Google Documents or Presentations has— that's Figma! Figma is the first collaborative UI design tool built in the browser. "
     },
 
-    "second":{
+    "third":{
         "classification": "UXKapihan (3rd Term)",
         "name": "UXKapihan",
         "date":"May 31, 2019",
@@ -22,18 +34,19 @@
         "description": "UX Society - DLSU is bringing you coffee and conversation. Happening this Friday, May 31, meet the people behind the scenes, hone your skills and become a better designer today. Come join us in a chill, intimate afternoon discussing ideas, experiences and everything in between."
     },
 
-    "third":{
-        "classification": "UX&Play",
-        "name": "Figma Workshop",
-        "date": "March 9, 2019",
-        "where": "A1904",
-        "time": "01:00pm - 03:00pm",
-        "speaker": "Paul Sabandal & Anjo Cerdena",
-        "featured_image": "https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.0-9/53531862_374919479757362_6746370032525115392_n.jpg?_nc_cat=111&_nc_oc=AQkiLfXUPR3UCNP3CFwrgj_K8jkKwT9WhT88E29C26fyTK_DprEfoOp9Io5oLyHvjF8&_nc_ht=scontent.fcrk1-1.fna&oh=ff32324e61b19cb7ae40be644e141b32&oe=5D84035A",
-        "description": "Imagine a tool you use to create screen designs and illustrations, but it had the features of collaboration that Google Documents or Presentations has— that's Figma! Figma is the first collaborative UI design tool built in the browser."
-    },
-
     "recent_events":{
+        "982":{
+            "classification": "UX&Play",
+            "name": "Prototyping with Figma",
+            "date": "June 28, 2019",
+            "where": "A1706",
+            "time": "05:00pm - 07:00pm",
+            "speaker": "Miguel Quiambao & Mitchell Ong",
+            "ticket": "https://www.eventbrite.com/e/uxplay-figma-workshop-tickets-63788773940",
+            "featured_image": "https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.0-9/65364134_428287674420542_3693274027444404224_o.png?_nc_cat=105&_nc_oc=AQmJ6FPEBUrSMsHtBOJYZN3p65_i-4p1C_-ffuV0qYqWlllQ8ug4x9sLAQv4PkoTrzE&_nc_ht=scontent.fmnl17-1.fna&oh=43edbebbf27121a81b6407bd4eb80fb2&oe=5D7D95E1",
+            "description": "Missed the last Figma workshop? Worry not! We’re back for another round! Imagine a tool you use to create screen designs and illustrations, but it had the features of collaboration that Google Documents or Presentations has— that's Figma! Figma is the first collaborative UI design tool built in the browser. "
+        },
+
         "983":{
             "classification": "UXKapihan (3rd Term)",
             "name": "UXKapihan",

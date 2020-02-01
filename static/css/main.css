@@ -9,6 +9,7 @@
 @import url(section.css);
 @import url(footer.css);
 @import url(mediaquery.css);
+@import url(sponsor.css);
 
 @font-face {
 	font-family: 'Proxima-Nova';

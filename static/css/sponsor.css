@@ -1,0 +1,11 @@
+/* sponsor component stylesheet */
+
+div.sponsor-wrapper img {
+	height: 5em;
+	filter: grayscale(100%);
+	transition: all ease 0.3s;
+}
+
+div.sponsor-wrapper img:hover {
+	filter: grayscale(0%);
+}
